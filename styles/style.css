@@ -8,6 +8,12 @@ body {
 
 /* Header */
 
+header {
+    border-bottom: 3px solid rgba(221, 221, 221, 0.521);
+}
+
+/* Header - Banner */
+
 #banner {
     background-color: #f72210;
     color: white;
@@ -59,10 +65,39 @@ body {
     flex-wrap: nowrap;
 }
 
-header a {
-    padding: 0;
-}
-
 header .dropdown-toggle::after {
     display: none;
+}
+
+/* Header - Nav */
+
+header ul a {
+    color: black !important;
+}
+
+header ul a:hover {
+    color: red !important;
+}
+
+.green {
+    color: green !important;
+}
+
+header ul li {
+    border-right: 1px solid rgba(130, 130, 130, 0.4);
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+header ul li:last-child {
+    border-right: none;
+}
+
+header .navbar {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.nav-justified .nav-item {
+    flex-basis: auto;
 }
