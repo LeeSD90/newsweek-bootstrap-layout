@@ -2,12 +2,67 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.container-fluid, .container {
+    max-width: 1310px;
+}
+
 /* Header */
+
+#banner {
+    background-color: #f72210;
+    color: white;
+    padding: 10px 20px;
+}
+
+#banner h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
 
 #banner .d-flex {
     flex: 1;
 }
 
+#banner .navbar-nav {
+    justify-content: flex-end;
+}
+
+#banner .btn-group {
+    align-items: flex-end;
+}
+
+#banner button {
+    border: none;
+    border-radius: 0;
+    max-width: 30%;
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 2px;
+}
+
+#banner .sign-in {
+    color: white;
+    background-color: #f72210;
+}
+
+#banner .subscribe {
+    color: #f72210;
+    background-color: white;
+}
+
 #header-search {
     flex-wrap: nowrap;
+}
+
+header a {
+    padding: 0;
+}
+
+header .dropdown-toggle::after {
+    display: none;
 }
