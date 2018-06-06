@@ -9,7 +9,7 @@ body {
 /* Header */
 
 header {
-    border-bottom: 3px solid rgba(221, 221, 221, 0.521);
+    border-bottom: 2px solid rgba(230, 230, 230, 0.521);
 }
 
 /* Header - Banner */
@@ -100,4 +100,151 @@ header .navbar {
 
 .nav-justified .nav-item {
     flex-basis: auto;
+}
+
+/* Main */
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    color: rgba(3,3,3,.4);
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-top: 11px;
+}
+
+/* Articles */
+
+article h3, h4, h5 {
+    color: black;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+article h3 { font-size: 1.5rem; }
+article h4 { font-size: 1.3rem; }
+article h5 { font-size: 1.1rem; }
+
+article h3 a, h4 a, h5 a {
+    color: black;
+}
+
+article h3 a:hover, h4 a:hover, h5 a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+article li {
+    border-top: 1px solid rgba(130, 130, 130, 0.4);
+}
+
+article li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+article li h4 {
+    font-size: 1rem;
+}
+
+article p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/* Small articles */
+
+#more article, #opinion article, #latest article {
+    padding: 11px 0;
+    border-top: 1px solid rgba(130, 130, 130, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+/* More section */
+
+#more article h4 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+#more article p {
+    font-size: 0.85rem;
+}
+
+/* Opinion section */
+
+#opinion article h5 {
+    font-size: 0.93rem;
+    margin: 0;
+}
+
+#opinion article .text {
+    font-size: 0.75rem;
+    margin-left: 10px;
+}
+
+#opinion article .byline {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+#opinion article a:hover, #latest article a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#opinion article .byline a {
+    color: red;
+}
+
+/* Latest section */
+
+#latest article h5 {
+    font-size: 0.93rem;
+    margin-left: 5px;
+}
+
+
+/* Images */
+
+[class*="picture-"] {
+    position: relative;
+}
+
+[class*="picture-"] .image-tag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.9);
+    padding: .4rem 1rem;
+    color: red;
+}
+
+[class*="picture-"] .image-tag a {
+    color: red;
+    font-weight: bold;
+}
+
+[class*="picture-"] .image-tag a:hover { text-decoration: none; }
+
+.picture-micro {
+    padding: 0;
 }
