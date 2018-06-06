@@ -1,0 +1,11 @@
+
+
+/* Header */
+
+#banner .d-flex {
+    flex: 1;
+}
+
+#header-search {
+    flex-wrap: nowrap;
+}

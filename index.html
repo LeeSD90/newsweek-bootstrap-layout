@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Newsweek Bootstrap Layout</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
-    <body>
-        <header>
 
-        </header>
+    <body class="bg-light">
+        <div class="container">
 
-        <footer>
+            <header class="bg-white">
+                <div id="banner" class="d-flex flex-row flex-fill">
+                    <div class="navbar-nav d-flex justify-content-start dropdown text-uppercase">
+                        <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" data-toggle="dropdown" aria-expanded="false">U.S. Edition <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Middle East</a>
+                            <a class="dropdown-item" href="#">日本</a>
+                            <a class="dropdown-item" href="#">한국</a>
+                            <a class="dropdown-item" href="#">Pakistan</a>
+                            <a class="dropdown-item" href="#">Polska</a>
+                            <a class="dropdown-item" href="#">România</a>
+                        </div>
+                    </div>
+                    <h1 class="d-flex justify-content-center">Newsweek</h1>
+                    <div class="navbar-nav btn-group d-flex flex-row justify-content-end">
+                        <button type="button" class="btn">Sign in</button>
+                        <button type="button" class="btn">Subscribe<i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+                    <ul class="navbar-nav collapse navbar-collapse nav-justified font-weight-bold">
+                        <li class="nav-item"><a href="#" class="nav-link">U.S.</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">World</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Tech & Science</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Culture</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sports</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Health</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Opinion</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Green Rankings</a></li>
+                        <li><div class="input-group" id="header-search"><input type="text" class="form-control border-0" placeholder="Search"><button class="btn border-0" type="button"><i class="fas fa-search"></button></i></div></li>
+                    </ul>
+                </nav>
+            </header>
 
-        </footer>
+            <main class="main container-fluid bg-white">
+
+            </main>
+
+            <footer class="bg-white">
+
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        
+        </div>
     </body>
+
 </html>
