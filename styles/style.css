@@ -69,6 +69,15 @@ header .dropdown-toggle::after {
     display: none;
 }
 
+.mobile-button {
+    margin: auto;
+}
+
+.mobile-button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Header - Nav */
 
 header ul a {
@@ -291,4 +300,34 @@ footer .footer-nav .nav-link{
 
 footer .footer-nav .nav-link:last-child {
     border: none;
+}
+
+/* @media tags */
+
+@media (min-width: 992px){
+
+    header #banner .mobile-button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    header {
+        border: none;
+    }
+
+    header #banner button {
+        display: none;
+    }
+
+    header #banner .navbar-nav {
+        display: none !important;
+    }
+
+    header #banner h1 {
+        font-size: 2rem;
+    }
+
 }
