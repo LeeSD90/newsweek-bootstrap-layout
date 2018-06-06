@@ -248,3 +248,47 @@ article p {
 .picture-micro {
     padding: 0;
 }
+
+/* Footer */
+
+footer {
+    padding: 20px 0;
+}
+
+footer * {
+    color:#666;
+    font-size: 0.8rem;
+}
+
+footer .logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+}
+
+footer .footer-top {
+    display: flex;
+    border-top: 2px solid rgba(230, 230, 230, 0.521);
+    border-bottom: 1px solid rgba(230, 230, 230, 0.521);
+}
+
+footer nav {
+    padding: 10px;
+    justify-content: center;
+}
+
+footer .social-nav {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex:1;
+}
+
+footer .footer-nav .nav-link{
+    border-right: 1px solid rgba(230, 230, 230, 0.521);
+}
+
+footer .footer-nav .nav-link:last-child {
+    border: none;
+}
